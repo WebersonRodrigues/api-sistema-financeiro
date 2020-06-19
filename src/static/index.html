@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Financeira</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Api para o sistema financeiro</h1>
+        <div class="row">
+           <div class="col-sm-12">
+            <div style="font-size: 13.3333px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 400; font-style: normal; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);">Esta api contém somente 2 entidades, <strong>titulos</strong> e<strong> naturezas de lan&ccedil;amento.</strong><br />
+                <br />
+                Segue a abaixo um resumo das rotas disponiveis para esta API:</div>
+                <br>
+                <strong style="color: brown;">Obs.: Não é necessário autenticação!</strong><br>
+
+                <div style="font-size: 13.3333px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 400; font-style: normal; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);">&nbsp;</div>
+                
+                <div style="font-size: 13.3333px; font-family: Verdana; color: rgb(0, 0, 0); font-weight: 400; font-style: normal; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);">Referente a naturezas:
+                <div>
+                <table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+                    <thead>
+                        <tr>
+                            <th scope="col">Metodos</th>
+                            <th scope="col">URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GET</td>
+                            <td><a href="http://localhost:3000/naturezas-lancamento">http://localhost:3000/naturezas-lancamento</a></td>
+                        </tr>
+                        <tr>
+                            <td>POST</td>
+                            <td><a href="http://localhost:3000/naturezas-lancamento">http://localhost:3000/naturezas-lancamento</a></td>
+                        </tr>
+                        <tr>
+                            <td>PUT</td>
+                            <td><a href="http://localhost:3000/naturezas-lancamento/4">http://localhost:3000/naturezas-lancamento/</a>{id}</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div>&nbsp;</div>
+                
+                <div>Referente a titulos:</div>
+                
+                <div>
+                <table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+                    <thead>
+                        <tr>
+                            <th scope="col">Metodos</th>
+                            <th scope="col">URL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GET</td>
+                            <td><a href="http://localhost:3000/titulos">http://localhost:3000/titulos</a></td>
+                        </tr>
+                        <tr>
+                            <td>POST</td>
+                            <td><a href="http://localhost:3000/titulos">http://localhost:3000/titulos</a></td>
+                        </tr>
+                        <tr>
+                            <td>PUT</td>
+                            <td><a href="http://localhost:3000/titulos">http://localhost:3000/titulos</a>/{id}</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div>&nbsp;</div>
+                
+                <div>&nbsp;</div>
+                
+                <div>Exemplos feitos no <a href="https://insomnia.rest/">insomnia</a>:<br />
+                
+                <div><img src="./get-titulos.PNG" alt="get-titulos"/></div>
+                
+                <div>&nbsp;</div>
+
+                <div></div><img  src="./post-titulos.PNG" alt="post-titulos" /></div>
+
+                <div>&nbsp;</div>
+
+                <div><img src="./put-titulos.PNG" alt="put-titulos"/></div>
+                
+                <div>&nbsp;</div>
+                <div><img src="./get-naturezas.PNG" alt="get-naturezas"/></div>
+                
+                <div>&nbsp;</div>
+
+                <div></div><img  src="./post-naturezas.PNG" alt="post-naturezas" /></div>
+
+                <div>&nbsp;</div>
+
+                <div><img src="./put-naturezas.PNG" alt="put-naturezas"/></div>
+                
+                <div>&nbsp;</div>
+                
+                </div>
+                </div>
+                </div>
+                
+           </div>
+
+        </div>
+    </div>
+</body>
+</html>
